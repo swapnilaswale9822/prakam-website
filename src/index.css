@@ -1,0 +1,67 @@
+@import "tailwindcss";
+
+@theme {
+  --color-navy-50: #e8edf4;
+  --color-navy-100: #c5d0e3;
+  --color-navy-200: #9eb2d0;
+  --color-navy-300: #7794bd;
+  --color-navy-400: #597eaf;
+  --color-navy-500: #3b68a1;
+  --color-navy-600: #355f99;
+  --color-navy-700: #2d548f;
+  --color-navy-800: #254a85;
+  --color-navy-900: #0F2A4A;
+  --color-navy-950: #091a30;
+
+  --color-orange-50: #fef3e8;
+  --color-orange-100: #fde0c5;
+  --color-orange-200: #fccc9e;
+  --color-orange-300: #fbb877;
+  --color-orange-400: #faa959;
+  --color-orange-500: #E87722;
+  --color-orange-600: #d56a1e;
+  --color-orange-700: #b85a19;
+  --color-orange-800: #9b4b14;
+  --color-orange-900: #6e350e;
+
+  --color-steel-50: #f8f9fa;
+  --color-steel-100: #f1f3f5;
+  --color-steel-200: #e9ecef;
+  --color-steel-300: #dee2e6;
+  --color-steel-400: #ced4da;
+  --color-steel-500: #adb5bd;
+  --color-steel-600: #868e96;
+  --color-steel-700: #495057;
+  --color-steel-800: #343a40;
+  --color-steel-900: #212529;
+
+  --font-heading: 'Poppins', system-ui, sans-serif;
+  --font-body: 'Inter', system-ui, sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-body);
+  color: var(--color-steel-800);
+  background: #fff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+}
+
+::selection {
+  background: var(--color-orange-500);
+  color: white;
+}
